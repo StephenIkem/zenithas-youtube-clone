@@ -1,0 +1,344 @@
+.thumbnail {
+    width: 100%; 
+} 
+
+.video-preview-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+
+
+@media (max-width: 750px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+@media (min-width: 1000px) {
+    .video-preview-grid {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+
+
+.video-title {
+    margin-top: 0;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+
+.video-title a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.video-info-grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    
+}
+
+.channel-picture {
+    width: 50px;
+    vertical-align: top;
+    position: relative;
+}
+
+.profile-tool-container {
+    width: 200px;
+    background-color: white;
+    position: absolute;
+    bottom: -25px;
+    display: flex;
+    flex-direction: row;
+    opacity: 0;
+    box-shadow: 1px 2px 6px rgba(0, 0, 0, 0.8);
+    border-radius: 8px;
+    pointer-events: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 12px;
+    padding-top: 8px;
+    transition: opacity 0.15s;
+
+}
+
+.channel-picture:hover .profile-tool-container {
+    opacity: 1;
+}
+
+.span-bold {
+    font-family: Roboto, Arial;
+    font-weight:bold;
+}
+
+.span-fade {
+    color: rgb(96, 96, 96);
+}
+
+.profile-tooltip .span-bold{
+margin-bottom: 8px;
+}
+
+.profile-tool {
+    width: 46px;
+    border-radius: 60px; 
+}
+
+.profile-tooltip {
+    display: flex;
+    flex-direction: column;
+    margin-left: 8px;
+}
+
+.video-info {
+    display: inline-block;
+    width: 200px;
+}
+.profile-picture {
+    width: 36px;
+    border-radius: 50px;
+}
+
+
+
+.thumbnail-row {
+    margin-top: 12px;
+}
+
+.video-author,
+.video-stats {
+    font-size: 12px;
+    color: rgb(96, 96, 96);
+}
+
+.video-author {
+    margin-bottom: 6px;
+}
+.picture-info, .video-info {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.video-time-container {
+    position: relative;
+}
+
+.video-time {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom:8px;
+    right: 5px;
+}
+
+.video-cam2 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam3 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom:8px;
+    right: 5px;   
+}
+
+.video-cam4 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam5 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam6 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam7 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom:8px;
+    right: 5px;   
+}
+
+.video-cam8 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam9 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+
+.video-cam10 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+.video-cam11 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+
+.video-cam12 {
+    font-family: Roboto, Arial;
+    font-size: 12px;
+    font-weight: 500;
+    padding-left: 4px;
+    padding-right: 4px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 2px;
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 8px;
+    right: 5px;   
+}
+
+
+@media (min-width: 1000px) {
+    .video-title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1000px) {
+    p {
+        font-size: 14px;
+    }
+}

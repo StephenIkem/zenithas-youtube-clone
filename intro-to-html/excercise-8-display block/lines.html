@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display Block and inline-Block</title>
+
+    <style>
+        .input1, .input2 {
+            display: block;
+        }
+
+        .input2 {
+            margin-top: 5px;
+        }
+
+        .para1 {
+            width: 190px;
+
+        }
+
+        .input3, .input4 {
+            width: 20px;
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .para1, .input3, .input4 {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .img1 {
+            width: 300px;
+        }
+    </style>
+</head>
+<body>
+    <input class="input1" type="text" placeholder="Name">
+    <input class="input2" type="text" placeholder="Email">
+
+    <p class="para1">Thanks for chatting with our customer support.
+        would you like to take our quick survey?
+    </p>
+
+    <input class="input3" type="text" placeholder="Yes">
+    <input class="input4" type="text" placeholder="No">
+
+    <img src="thumbnails/google-image.jpeg" alt="">
+    
+
+</body>
+</html>
